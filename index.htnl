@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Регистрация</h2>
+        <form action="/register.php" method="POST" enctype="multipart/form-data">
+            <input type="text" name="username" placeholder="Имя пользователя" required><br>
+            <input type="email" name="email" placeholder="Email" required><br>
+            <input type="password" name="password" placeholder="Пароль" required><br>
+            <input type="file" name="photo" accept="image/*" required><br>
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+    </div>
+</body>
